@@ -1,0 +1,98 @@
+node_modules/**/*
+front/.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# macOS
+.DS_Store
+
+pid
+*.pyc
+*.out
+*.bak
+*.log
+*.orig
+.idea
+.project
+.pydevproject
+local_settings.py
+server_settings.py
+/media/
+/static/
+/log/
+*.sublime-project
+*.sublime-workspace
+/.settings
+/venv/
+/venv2/
+src/db.sqlite3
+/base/
+/src/project/settings/local.py
+__pycache__/
+node_modules/
+package-lock.json
+static/agg_feed.xml
+static/hack_feed/
+
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+#
+.idea/
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+
+/src/settings/local.js
+/src/notifications/websocket/settings/local.py
+/src/settings/local.py

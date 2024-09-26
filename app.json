@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "DarleKids",
+    "slug": "darle_theater",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.darlekids.theatre",
+      "buildNumber": "1.0.19",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "This app does not require access to the microphone.",
+        "NSCameraUsageDescription": "This app uses camera to enable torch on fairytale playback."
+      }
+    },
+    "android": {
+      "package": "com.darlekids.theatre",
+      "versionCode": 22,
+      "permissions": ["CAMERA"],
+    },
+    "androidNavigationBar": {
+      "visible": "immersive"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "description": ""
+  }
+}
