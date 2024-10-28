@@ -4,4 +4,4 @@ DarleKids Shadow Theater is project for the friends' toys company. The company i
 
 React Native was selected as a key technology. Good experience, React Native was a much more production ready than in 2018. 
 
-React Native, Redux, Typescript, Django
+React Native, Redux, Typescript
